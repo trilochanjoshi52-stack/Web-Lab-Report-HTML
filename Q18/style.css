@@ -1,0 +1,73 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial;
+}
+
+.title {
+    color: red;
+    margin-left: 180px;
+}
+
+.form-box {
+    width: 700px;
+    margin: 20px auto;
+}
+
+fieldset {
+    border: 2px solid #999;
+    padding: 20px;
+    background-color: #eee;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    background: #e5e5e5;
+    padding: 10px;
+}
+
+label {
+    width: 120px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    flex: 1;
+    padding: 8px;
+    border: 2px solid #f4c27a;
+    outline: none;
+}
+
+textarea {
+    height: 80px;
+}
+
+.checkbox {
+    background: #e5e5e5;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.register {
+    background-color: blue;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+}
+
+.clear {
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+} 

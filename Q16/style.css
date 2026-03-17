@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    background: purple;
+}
+
+.navbar {
+    list-style: none;
+    background: white;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    padding: 12px 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    top: 40px;
+    left: 0;
+    width: 150px;
+}
+
+.dropdown-content li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

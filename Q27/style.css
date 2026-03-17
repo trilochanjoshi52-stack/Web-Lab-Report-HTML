@@ -1,0 +1,182 @@
+body {
+  background-color: #f5f5f5;
+  padding: 40px;
+  color: #333;
+}
+
+.invoice-box {
+  max-width: 850px;
+  margin: auto;
+  background: #fff;
+  padding: 0;
+  
+  position: relative;
+}
+
+.top-bar,
+.bottom-bar {
+  background-color: #e45a2b;
+  height: 12px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  background-color: #eeeeee;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  background: #666;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.company-info p {
+  font-size: 11px;
+  margin-bottom: 2px;
+}
+
+.invoice-meta h1 {
+  color: #888;
+  font-size: 28px;
+  text-align: right;
+}
+
+.meta-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.line {
+  border-bottom: 1px solid #ccc;
+  width: 100px;
+  height: 1px;
+}
+
+.payment-terms {
+  text-align: right;
+  font-size: 10px;
+  font-style: italic;
+  padding: 10px 40px;
+  color: #666;
+}
+
+.billing-section {
+  display: flex;
+  padding: 0 40px 30px;
+  gap: 50px;
+}
+
+.billing-section h3 {
+  font-size: 12px;
+  color: #2c5697;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 8px;
+  width: 200px;
+}
+
+.billing-section p {
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+table {
+  width: calc(100% - 80px);
+  margin: 0 40px;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+th {
+  background-color: #e45a2b;
+  color: white;
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #fff;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  height: 30px;
+  text-align: center;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.footer-section {
+  display: flex;
+  padding: 20px 40px 40px;
+  justify-content: space-between;
+}
+
+.remarks {
+  width: 50%;
+  font-size: 11px;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.totals {
+  width: 40%;
+  font-size: 10px;
+  text-align: right;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.balance-due {
+  background-color: #f2dede;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.price-box {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 5px 20px;
+  min-width: 80px;
+}

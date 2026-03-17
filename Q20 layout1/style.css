@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+.container{
+    width:100%;
+}
+
+/* Header */
+.header{
+    background:#5c5c8a;
+    color:black;
+    text-align:center;
+    padding:40px 0;
+}
+
+/* Menu */
+.menu{
+    background:#8f9f8f;
+    padding:15px;
+}
+
+/* Main Section */
+.main{
+    display:flex;
+    height:400px;
+}
+
+/* Left Side */
+.left{
+    width:25%;
+    background:#a85252;
+    padding:10px;
+}
+
+/* Content */
+.content{
+    width:50%;
+    background:#1e9bd7;
+    padding:10px;
+}
+
+/* Right Side */
+.right{
+    width:25%;
+    background:#7b6ed6;
+    padding:10px;
+}
+
+/* Footer */
+.footer{
+    background:#808080;
+    padding:20px;
+}

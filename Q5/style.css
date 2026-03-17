@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.main-list {
+    list-style-type: square;
+}
+
+.main-list ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.ordered-list {
+    margin-top: 20px;
+}
+
+ol ol {
+    margin-left: 20px;
+}
+
+li {
+    padding: 4px;
+}
+

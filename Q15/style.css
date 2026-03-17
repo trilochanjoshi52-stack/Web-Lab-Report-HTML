@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    list-style: none;
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+}
+
+.menu li {
+    padding: 8px 15px;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.menu li:hover {
+    background-color: blue;
+    color: white;
+}
